@@ -373,5 +373,5 @@ li {
 .cv:hover {
     color: #4C94C3;
     font-style: italic;
-
+    text-decoration: underline;
 }
