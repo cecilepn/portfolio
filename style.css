@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    height: 100dvh;
+    height: 100vh;
     display: flex;
 }
 
@@ -297,7 +297,7 @@ li {
 
 .last {
     left: -5px;
-    top: 70%;
+    top: 68%;
 }
 
 .stlast {
@@ -311,6 +311,20 @@ li {
 
 .labeltrois {
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     transform: translateY(-50%);
+}
+
+/* section works */
+
+.works {
+    background-image: url('img/fond.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
