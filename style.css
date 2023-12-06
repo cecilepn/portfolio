@@ -27,6 +27,11 @@ h4 {
     font-weight: normal;
 }
 
+img {
+    width: 150px;
+    height: 100%;
+}
+
 
 /* section navigation */
 
@@ -208,6 +213,7 @@ h4 {
     font-size: 3em;
     text-transform: uppercase;
     margin-bottom: 20px;
+    letter-spacing: 5px;
 }
 
 .hard {
@@ -218,7 +224,7 @@ h4 {
 
 .vertical-line {
     position: relative;
-    height: 1200px;
+    height: 1000px;
     width: 1px;
     background-color: white;
     margin: 0 auto;
@@ -331,8 +337,14 @@ li {
 
 
 /* section resume */
-
 .resume {
+    display: grid;
+    place-items: center;
+
+    position: relative;
+}
+
+.circle {
     display: grid;
     place-items: center;
     position: relative;
@@ -374,4 +386,133 @@ li {
     color: #4C94C3;
     font-style: italic;
     text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.interested {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50px;
+}
+
+/* section contact */
+
+.contact {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.memocontact {
+    width: 400px;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.rs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-bottom: solid 1px white;
+}
+
+.credit {
+    padding: 20px 0 20px 0;
+}
+
+/* social medias icons */
+
+.icons {
+    display: flex;
+    column-gap: 25px;
+}
+
+.icon {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon i {
+    margin: auto;
+}
+
+.icon:hover i {
+    animation: shake 0.25s;
+}
+
+.icon--instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%);
+    outline-color: #a02d76;
+}
+
+
+.icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--github:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+/* accessibility */
+
+.screen-reader-only {
+    position: absolute;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
 }

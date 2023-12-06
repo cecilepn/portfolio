@@ -19,6 +19,7 @@
 
     <!-- link to icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!-- script.js -->
     <script src="script.js"></script>
@@ -78,7 +79,7 @@
 
         <section class="skill">
 
-            <div class="start"><img src="img/emoji.png" alt="">
+            <div class="start"><img src="img/memoji.png" alt="">
                 <h4>My knowledge</h4> <span class="hard"> /Hard Skills</span>
             </div>
 
@@ -147,35 +148,71 @@
 
         <section class="resume">
 
+            <div class="circle">
+                <div class="rounded-text rotating">
+                    <svg viewBox="0 0 200 200">
+                        <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0"
+                            transform="translate(100,100)" fill="none" stroke-width="0"></path>
+                        <g font-size="1.3em">
+                            <text>
+                                <textPath xlink:href="#textPath" fill="white">
+                                    - Interested? Take a better look on my resume - Look, click here!
+                                </textPath>
+                            </text>
+                        </g>
+                    </svg>
+                </div>
 
-            <div class="rounded-text rotating">
-                <svg viewBox="0 0 200 200">
-                    <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0" transform="translate(100,100)"
-                        fill="none" stroke-width="0"></path>
-                    <g font-size="1.3em">
-                        <text>
-                            <textPath xlink:href="#textPath" fill="white">
-                                - Interested? Take a better look on my resume - Look, click here!
-                            </textPath>
-                        </text>
-                    </g>
-                </svg>
+                <a href="./CV_cecile_phan_nguyen.pdf" class="cv"> cv </a>
             </div>
 
-            <a href="./CV_cecile_phan_nguyen.pdf" class="cv"> cv </a>
-
+            <img src="img/memoji2.png" alt="" class="interested">
         </section>
 
-        <section class="contact">
 
 
-
-        </section>
 
 
     </main>
 
+    <footer>
+        <section class="contact">
 
+            <div>
+                <h4>Stay in touch</h4>
+                <img src="img/memoji3.png" alt="" class="memocontact">
+            </div>
+
+            <div class="details">
+                <p>cecilephan@outlook.com</p>
+                <p>+33 6.51.99.53.96</p>
+
+                <div class="rs">
+                    <div class="icons" data-aos="flip-up" data-aos-duration="4000">
+                        <a href="https://www.instagram.com/phedelart/" target="_blank" rel=”noopener”
+                            class="icon icon--instagram">
+                            <span class="screen-reader-only"> Open to Instagram profile </span>
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/c%C3%A9cile-phan-nguyen/" target="_blank" rel=”noopener”
+                            class="icon icon--linkedin"> <span class="screen-reader-only"> Open to LinkedIn profile
+                            </span>
+                            <i class="ri-linkedin-line"></i>
+                        </a>
+                        <a href="https://github.com/cecilepn" target="_blank" rel=”noopener”
+                            class="icon icon--github"><span class="screen-reader-only"> Open to GitHub profile </span>
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                    </div>
+                    <p class="desc" data-aos="fade-in" data-aos-duration="3000"> Follow me on my journey!</p>
+
+                </div>
+                <p class="credit">© 2023 - Cécile PHAN NGUYEN</p>
+            </div>
+
+        </section>
+    </footer>
 
 
 
