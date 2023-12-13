@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
 
+    <!-- link to css -->
+    <link rel="stylesheet" href="desk.css">
+    <link rel="stylesheet" media="(min-width: 574px)and (max-width: 1024px)" href="tablet.css">
+    <link rel="stylesheet" media="(max-width: 575px)" href="mobile.css" />
+
+    <!-- link to fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -29,24 +34,25 @@
 
 <body>
 
-    <div>
-        <a href="index.html"> <img src="img/logo.png" alt="back to home page" class="logo"><span class="sr-only">
-                logo </span></a>
-    </div>
+    <nav>
+        <div>
+            <a href="index.html"> <img src="img/logo.png" alt="back to home page" class="logo"><span class="sr-only">
+                    logo </span></a>
+        </div>
 
-    <div>
+        <div>
 
-        <span class="hamburger">
-            <i class="menuIcon material-icons">menu</i>
-            <i class="closeIcon material-icons">close</i>
-        </span>
-        <ul class="menu">
-            <li><a class="menuItem" href="#index.html">Home</a></li>
-            <li><a class="menuItem" href="#about">About</a></li>
-            <li><a class="menuItem" href="#">Works</a></li>
-            <li><a class="menuItem" href="#">Contact</a></li>
-        </ul>
-
+            <span class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+            </span>
+            <ul class="menu">
+                <li><a class="menuItem" href="#index.html">Home</a></li>
+                <li><a class="menuItem" href="#about">About</a></li>
+                <li><a class="menuItem" href="#">Works</a></li>
+                <li><a class="menuItem" href="#">Contact</a></li>
+            </ul>
+    </nav>
     </div>
 
     <main>
@@ -64,7 +70,7 @@
                 <h3>phan nguyen</h3> <span class="name">cecile.</span>
             </div>
 
-            <div>
+            <div class="container">
                 <p class="desc">I am an enthusiastic second-year student pursuing a Bachelor's degree in Multimedia and
                     Internet Professions (MMI) actively seeking internship opportunities in web development starting
                     from
@@ -83,50 +89,56 @@
                 <h4>My knowledge</h4> <span class="hard"> /Hard Skills</span>
             </div>
 
-            <div class="vertical-line">
-                <span class="dot dfirst"></span>
-                <div class="st pfirst"> Web development
-                </div>
-                <div class="labelun">
-                    <ul class="list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>php</li>
-                        <li>JavaScript</li>
-                        <li>MySql</li>
-                        <li>Wordpress</li>
+            <div class="vertical-line horizontal-line">
 
-                    </ul>
-                </div>
+                <div class="bloc">
+                    <span class="dot dfirst"></span>
+                    <div class="st pfirst"> Web development
+                    </div>
+                    <div class="labelun">
+                        <ul class="list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>php</li>
+                            <li>JavaScript</li>
+                            <li>MySql</li>
+                            <li>Wordpress</li>
 
-                <span class="dot dscnd"></span>
-                <div class="st pscnd"> Libraries
-                </div>
-                <div class="labeldeux">
-                    <ul class="list left">
-                        <li>Node.js</li>
-                        <li>Chart.js</li>
-                        <li>d3.js</li>
-                        <li>AOS</li>
-                        <li>Bootstrap</li>
-
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
 
+                <div class="bloc">
+                    <span class="dot dscnd"></span>
+                    <div class="st pscnd"> Libraries
+                    </div>
+                    <div class="labeldeux">
+                        <ul class="list left">
+                            <li>Node.js</li>
+                            <li>Chart.js</li>
+                            <li>d3.js</li>
+                            <li>AOS</li>
+                            <li>Bootstrap</li>
 
-                <span class="dot last"></span>
-                <div class="stlast"> Creative Design
+                        </ul>
+                    </div>
                 </div>
-                <div class="labeltrois">
-                    <ul class="list">
-                        <li>Figma</li>
-                        <li>AdobePhotoshop</li>
-                        <li>AdobeIllustrator</li>
-                        <li>PremierePro</li>
-                        <li>AfterEffect</li>
-                        <li>AdobeAudition</li>
 
-                    </ul>
+                <div class="bloc">
+                    <span class="dot last"></span>
+                    <div class="st last"> Creative Design
+                    </div>
+                    <div class="labeltrois">
+                        <ul class="list">
+                            <li>Figma</li>
+                            <li>AdobePhotoshop</li>
+                            <li>AdobeIllustrator</li>
+                            <li>PremierePro</li>
+                            <li>AfterEffect</li>
+                            <li>AdobeAudition</li>
+
+                        </ul>
+                    </div>
                 </div>
 
             </div>

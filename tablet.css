@@ -1,0 +1,431 @@
+/* general css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Boska', serif;
+    text-align: center;
+    font-weight: normal;
+}
+
+img {
+    width: 150px;
+    height: 100%;
+}
+
+/* section navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+}
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 24px;
+    font-size: 1.1em;
+}
+
+li a:hover {
+    text-decoration: none;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
+span {
+    color: #4C94C3;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* section introduction */
+
+.presentation {
+    background-image: url('img/fond.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* section about me */
+
+#about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.pp {
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    z-index: 2;
+    font-size: 10em;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+h3 {
+    width: 500px;
+    position: absolute;
+    font-size: 3.5em;
+    letter-spacing: 7px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+}
+
+.name {
+    position: absolute;
+    bottom: 50%;
+    margin: 0 16px;
+}
+
+
+.container {
+    font-size: 1em;
+    line-height: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    margin-top: 24px;
+    text-align: right;
+}
+
+/* section skills */
+
+.skill {
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.hard {
+    margin-left: 250px;
+    font-size: 1.2em;
+}
+
+/* line skills */
+
+.horizontal-line {
+    position: relative;
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    margin: 0 0 auto auto;
+    display: flex;
+    gap: 50px;
+}
+
+/* general positionning & front */
+.dot {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    background-color: #4C94C3;
+    border-radius: 50%;
+    top: -5px;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.st {
+    color: #4C94C3;
+    margin: 20px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* section works */
+
+.works {
+    background-image: url('img/fond.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+/* section resume */
+.resume {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.circle {
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.rounded-text {
+    width: 20rem;
+    height: 20rem;
+    transform: rotate(-103deg);
+    z-index: -1;
+    font-family: 'Boska', serif;
+
+}
+
+@keyframes rotating {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.rotating {
+    animation: rotating 20s linear infinite;
+}
+
+.cv {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cv:hover {
+    color: #4C94C3;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.interested {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50px;
+}
+
+
+/* section contact */
+
+.contact {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.memocontact {
+    width: 400px;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.rs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    border-bottom: solid 1px white;
+}
+
+.credit {
+    padding: 20px 0 20px 0;
+}
+
+/* social medias icons */
+
+.icons {
+    display: flex;
+    column-gap: 25px;
+}
+
+.icon {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon i {
+    margin: auto;
+}
+
+.icon:hover i {
+    animation: shake 0.25s;
+}
+
+.icon--instagram:hover {
+    background-image: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285aeb 90%);
+    outline-color: #a02d76;
+}
+
+
+.icon--linkedin:hover {
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--github:hover {
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+@keyframes shake {
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-15deg);
+    }
+}
+
+/* accessibility */
+
+.screen-reader-only {
+    position: absolute;
+    width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+}
