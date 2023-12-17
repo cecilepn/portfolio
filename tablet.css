@@ -1,0 +1,197 @@
+li a {
+    font-size: 1.2em;
+
+}
+
+h1 {
+    font-size: 8em;
+}
+
+h2 {
+    font-size: 6.5em;
+}
+
+.job {
+    font-size: 1.2em;
+
+}
+
+h5 {
+    font-size: 5.5em;
+}
+
+.photo {
+    width: 300px;
+    height: 100%;
+}
+
+h3,
+h4 {
+    white-space: nowrap;
+}
+
+h3 span {
+    font-size: 0.5em;
+    letter-spacing: 0;
+}
+
+
+h4 {
+    font-size: 4.5em;
+    margin-bottom: 16px;
+}
+
+h4 span {
+    font-size: 0.8em;
+}
+
+.right {
+    align-items: flex-start;
+}
+
+.right p:nth-child(even) {
+    margin-top: 16px;
+}
+
+.right p:nth-child(odd) {
+    margin-top: 16px;
+}
+
+h6 {
+    text-align: center;
+}
+
+#works {
+    margin-bottom: 0;
+}
+
+@media (max-width: 886px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 5em;
+    }
+
+    .photo {
+        width: 250px;
+        height: 100%;
+    }
+
+    h3 span {
+        font-size: 0.5em;
+    }
+
+
+    h4 {
+        font-size: 2em;
+    }
+
+
+    .cv {
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+
+@media (max-width: 762px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    .job {
+        font-size: 1em;
+        white-space: nowrap;
+
+    }
+
+    #about {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .right div:first-child {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    h3 {
+        font-size: 10em;
+    }
+
+    h3 span {
+        display: none;
+    }
+
+    h4 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    h4 span {
+        font-size: 0.4em;
+        position: absolute;
+        bottom: -200px;
+        right: -50px;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .skills {
+        margin-bottom: 0px;
+    }
+
+    .rounded-text {
+        display: none;
+    }
+
+    .cv {
+        border-radius: 100%;
+        border: 1px solid white;
+        padding: 20px;
+        font-size: 1em;
+        margin-right: 25px;
+    }
+
+    .hard {
+        gap: 40px;
+    }
+
+    .list p {
+        font-size: 1.3em;
+        white-space: nowrap;
+        padding: 16px 0px;
+    }
+
+    .list ul {
+        gap: 16px;
+
+    }
+
+    .container {
+        margin-left: 32px;
+        margin-right: 32px;
+
+    }
+
+    .linkWork {
+        right: 16px;
+        font-size: 1.1em;
+    }
+
+    .titre {
+        font-size: 1.8em;
+    }
+}

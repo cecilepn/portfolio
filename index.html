@@ -8,8 +8,10 @@
 
     <!-- link to css -->
     <link rel="stylesheet" href="desk.css">
-    <link rel="stylesheet" media="(min-width: 574px)and (max-width: 1024px)" href="tablet.css">
-    <link rel="stylesheet" media="(max-width: 575px)" href="mobile.css" />
+    <link rel="stylesheet" media="(min-width: 574px)and (max-width: 1020px)" href="tablet.css">
+    <link rel="stylesheet" media="(max-width: 580px)" href="mobile.css" />
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
 
     <!-- link to fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,6 +23,11 @@
     <link
         href="https://api.fontshare.com/v2/css?f[]=boska@900,901,701,201,401,301,500,400,2,1,200,700,300,501&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap" rel="stylesheet">
+
+    <!-- link to icons -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
 
 </head>
@@ -28,7 +35,181 @@
 
 <body>
 
+    <nav>
+        <div> <a href="index.html" alt="logo go to home page" class="logo"> cecilepn.</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
+    <section class="intro">
+
+        <div class="top">
+            <h1><span class="annee">2023</span> Welcome to my</h1>
+            <h2>portfolio.</h2>
+        </div>
+        <div class="sub">
+
+            <div class="identity">
+                <p>PHAN NGUYEN Cécile</p>
+                <p>cecilephan@outlook.com</p>
+            </div>
+
+            <p class="job">( Web Developer To Become )</p>
+
+            <div class="git">
+                <p>Github.com</p>
+                <a href="github.com/cecilepn"> cecilepn </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+
+        <div><img src="img/me.png" alt="" class="photo"></div>
+
+        <div class="right">
+            <div>
+                <h3>About <span>(me)</span></h3>
+                <h4>phan nguyen <span> cecile. </span></h4>
+            </div>
+
+            <div>
+                <p> I am an enthusiastic second-year student in the BUT MMI (Multimedia and Internet Professions)
+                    program seeking internship opportunities in the field of web development starting from April 2024.
+                </p>
+                <p>My goal is to gain practical experience in web development by collaborating with a dynamic and
+                    innovative team. I am ready to tackle new challenges and quickly learn to achieve set objectives.
+                </p>
+                <p>Passionate about creating dynamic and interactive websites, I aim to apply my programming skills and
+                    creativity to contribute to stimulating projects.</p>
+                <p>I am an effective communicator, capable of working in a team and adapting to collaborative work
+                    environments. I am open to new ideas and constructive feedback, determined to contribute to
+                    high-quality web projects. </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="skills">
+        <div class="heading">
+            <div class="subHeading">
+                <h5> <span>(my)</span> knowledge </h5>
+                <img src="img/memoji.png" alt="" class="memoji">
+            </div>
+
+            <div class="soft">
+
+                <div class="containerCV">
+                    <div class="rounded-text rotating">
+                        <svg viewBox="0 0 200 200">
+                            <path id="textPath" d="M 85,0 A 85,85 0 0 1 -85,0 A 85,85 0 0 1 85,0"
+                                transform="translate(100,100)" fill="none" stroke-width="0"></path>
+                            <g font-size="1.12em">
+                                <text text-anchor="start" fill="white">
+                                    <textPath xlink:href="#textPath" startOffset="0%">- Want to see more about me
+                                        ? Download my resume ! </textPath>
+                                </text>
+                            </g>
+                        </svg>
+                    </div>
+                    <a href="img/CV_cecile_phan_nguyen.pdf" class="cv">CV</a>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <div class="hard">
+            <div class="list">
+                <p>/Web development</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>php</li>
+                    <li>MySql</li>
+                    <li>Wordpress</li>
+                </ul>
+            </div>
+            <div class="list">
+                <p>/Libraries</p>
+                <ul>
+                    <li>Chart.js</li>
+                    <li>Node.js</li>
+                    <li>d3.js</li>
+                    <li>jQuery</li>
+                    <li>Gsap</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="list">
+                <p>/Creative Design</p>
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe PremierePro</li>
+                    <li>Adobe AfterEffect</li>
+                    <li>Adobe Audtion</li>
+                </ul>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="works">
+        <div class="heading">
+            <h5>Works<span>/In progress...</span></h5>
+        </div>
+
+
+
+    </section>
+
+    <section id="contact">
+        <div class="headingContact">
+            <h6>Let's keep in touch</h6>
+        </div>
+
+        <div>
+            <img src="img/memoji3.png" alt="">
+        </div>
+
+        <div class="rs">
+            <div class="icons" data-aos="flip-up" data-aos-duration="4000">
+                <a href="https://www.instagram.com/phedelart/" target="_blank" rel=”noopener”
+                    class="icon icon--instagram">
+                    <span class="screen-reader-only"> Open to Instagram profile </span>
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/c%C3%A9cile-phan-nguyen/" target="_blank" rel=”noopener”
+                    class="icon icon--linkedin"> <span class="screen-reader-only"> Open to LinkedIn profile </span>
+                    <i class="ri-linkedin-line"></i>
+                </a>
+                <a href="https://github.com/cecilepn" target="_blank" rel=”noopener” class="icon icon--github"><span
+                        class="screen-reader-only"> Open to GitHub profile </span>
+                    <i class="ri-github-line"></i>
+                </a>
+
+            </div>
+            <p class="desc" data-aos="fade-in" data-aos-duration="3000"> Follow me on my journey!</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2023 - Cécile PHAN NGUYEN <br> All rights reserved.</p>
+    </footer>
     <!-- script.js -->
     <script src="script.js"></script>
 

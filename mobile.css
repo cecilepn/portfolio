@@ -1,0 +1,194 @@
+ul {
+    gap: 24px;
+}
+
+li a {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+.annee {
+    font-size: 0.5em;
+    top: -20px;
+
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.job {
+    font-size: 1em;
+    white-space: nowrap;
+}
+
+h5 {
+    font-size: 5.5em;
+}
+
+.sub {
+    flex-direction: column;
+    align-items: center;
+}
+
+.identity {
+    margin-left: 0px;
+    flex-direction: row;
+}
+
+.git {
+    margin-right: 0px;
+    flex-direction: row;
+}
+
+
+#about {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.photo {
+    width: 250px;
+    height: 100%;
+
+}
+
+.right {
+    width: 400px;
+}
+
+.right div:first-child {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 10em;
+}
+
+h3 span {
+    display: none;
+}
+
+h4 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h4 span {
+    font-size: 0.4em;
+    position: absolute;
+    bottom: -200px;
+    right: -20px;
+    transform: translate(-50%, -50%);
+
+}
+
+.skills {
+    margin-bottom: 0px;
+    height: 170vh;
+}
+
+.memoji {
+    width: 100px;
+    height: 100px;
+}
+
+
+h5 {
+    font-size: 4em;
+}
+
+h5 span {
+    display: none;
+}
+
+
+.rounded-text {
+    display: none;
+}
+
+.cv {
+    border-radius: 100%;
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 1em;
+    margin-right: 0px;
+
+    position: absolute;
+    left: -300px;
+    top: 0px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.hard {
+    display: flex;
+    flex-direction: inherit;
+    gap: 16px;
+    padding-left: 32px;
+}
+
+.list p {
+    font-size: 1.5em;
+    white-space: nowrap;
+    padding: 8px 0px;
+    border-top: none;
+}
+
+.list ul {
+    padding: 32px 0px;
+    gap: 16px;
+    font-size: 1.2em;
+    justify-content: space-around;
+    width: 300px;
+
+}
+
+.container {
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+#works {
+    margin: 0px;
+    height: 190vh;
+}
+
+.linkWork {
+    right: 16px;
+    font-size: 1em;
+}
+
+.titre {
+    font-size: 1em;
+}
+
+.container {
+    gap: 0px;
+}
+
+.linkWork {
+    bottom: 30px;
+    right: 48px;
+}
+
+.linkWork:hover {
+    font-size: 2em;
+}
+
+h6 {
+    text-align: center;
+    font-size: 3em;
+}

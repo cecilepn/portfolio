@@ -1,0 +1,281 @@
+/* general css */
+
+body {
+    background-color: #EFEEE8;
+    font-family: "raleway", sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 100%;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    margin-bottom: 100px;
+}
+
+
+/* nav bar */
+
+.logo {
+    font-family: 'lexend', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0px 16px 0px;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0;
+}
+
+li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+li a:hover {
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+/* work */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6em;
+    margin-bottom: 0px;
+}
+
+.titleDiv>p {
+    font-size: 2.5em;
+    font-style: italic;
+    color: #4C94C3;
+    margin: 0px;
+}
+
+.titleDiv p:nth-child(3) {
+    font-size: 1.5em;
+    font-style: normal;
+    color: black;
+}
+
+.container {
+    display: flex;
+    gap: 64px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+img {
+    width: 350px;
+    height: 220px;
+}
+
+
+.blocUn {
+    border-right: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding-right: 64px;
+}
+
+.blocDeux {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-right: 64px;
+
+}
+
+.blocDeux>p {
+    margin: 0px;
+}
+
+.container p {
+    width: 350px;
+}
+
+.blocTrois {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+/* css button */
+
+.btnVisit {
+    border: 1px solid black;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 16px 32px 16px 32px;
+    color: black;
+    width: 120px;
+    white-space: nowrap;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.btnVisit:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+/* more section */
+
+.seeMore {
+    height: 80vh;
+}
+
+h2 {
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.prevWork,
+.nextWork {
+    text-decoration: none;
+    color: black;
+}
+
+.worksContainer {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.worksContainer img {
+    width: 500px;
+    height: 100%;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 16px 0;
+}
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.sub span {
+    font-style: italic;
+    border: black solid 1px;
+    border-radius: 20px;
+    padding: 8px 24px 8px 24px;
+}
+
+.sub span:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 1190px) {
+
+    h1 {
+        font-size: 4em;
+    }
+
+    li a {
+        font-size: 1.2em;
+
+    }
+
+    .blocUn,
+    .blocDeux,
+    .blocTrois {
+        flex-direction: inherit;
+        padding-right: 0;
+
+    }
+
+    .blocUn {
+        border-right: none;
+    }
+
+    .sub span {
+        white-space: nowrap;
+    }
+
+
+    .worksContainer img {
+        width: 100%;
+        height: 200px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width : 800px) {
+
+    li a {
+        font-size: 1em;
+    }
+
+    ul {
+        gap: 20px;
+    }
+
+    .blocUn,
+    .blocDeux,
+    .blocTrois {
+        flex-direction: inherit;
+        padding-right: 0;
+        flex-wrap: wrap;
+    }
+
+    .blocDeux {
+        flex-direction: column-reverse;
+    }
+
+    .seeMore {
+        height: 100%;
+    }
+
+    .worksContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

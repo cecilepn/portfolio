@@ -1,0 +1,154 @@
+[
+    {
+        "numero": "01",
+        "titre": "Chinese Portrait",
+        "competence": "HTML, CSS, JS, json",
+        "annee": "(1st year - 2022)",
+        "div1": {
+            "desc": "Chinese Portrait is a website that allows you to discover my Chinese portrait. It is a project that I did in my first year of BUT MMI. I had to create a website that allows you to discover my Chinese portrait. I had to use a json file to store the data and then display it on the website.",
+            "img": "./projets/chinese-portrait.png"
+        },
+        "div2": {
+            "desc": "I also had to create a form to allow the user to enter his name and then display his Chinese portrait.<br> <br>It was the first website I've ever coded. A first experience to put in practice what I learned during the first semester. It was also the first I had to host a website. The result is not perfect but I'm proud of it as it was my first website.",
+            "img1": "./projets/chinese-portrait-2.png"
+        },
+        "div3": {
+            "img2": "./projets/chinese-portrait-3.png",
+            "img3": "./projets/chinese-portrait-4.png"
+        },
+        "link": "https://cecilepn.github.io/autoportrait/portrait-chinois/"
+    },
+    {
+        "numero": "02",
+        "titre": "Artbnb",
+        "competence": "HTML, CSS, JS, Php, mySql",
+        "annee": "1st year - 2023",
+        "div1": {
+            "desc": "",
+            "img": "./projets/artbnb.png"
+        },
+        "div2": {
+            "desc": "",
+            "img1": "./projets/artbnb-2.png"
+        },
+        "div3": {
+            "img2": "./projets/artbnb-3.png",
+            "img3": "./projets/artbnb-4.png"
+        },
+        "link": "https://resaweb.cphan-nguyen.butmmi.o2switch.site/index.php"
+    },
+    {
+        "numero": "03",
+        "titre": "Opport",
+        "competence": "Wordpress, project management",
+        "annee": "1st year - 2023",
+        "div1": {
+            "desc": "The first group project where I was the project leader. In this context, our project was to create a civic project. Our goal was to establish an association called Opport, aimed at assisting students in their search for internship. <br> <br>  I took charge of creating the WordPress site based on the conceptual mock-up developed.",
+            "img": "./projets/opport.png"
+        },
+        "div2": {
+            "desc": "This project allowed me to explore project management aspects, team coordination, and bringing a vision to fruition in line with user needs. I also deepened my technical skills by using WordPress to develop a functional and intuitive site. This experience provided me with a solid foundation to continue progressing both as a web developer and as a leader within a project team.",
+            "img1": "./projets/opport-2.png"
+        },
+        "div3": {
+            "img2": "./projets/opport-3.png",
+            "img3": "./projets/opport-4.png"
+        },
+        "link": "https://opportsae.cphan-nguyen.butmmi.o2switch.site/"
+    },
+    {
+        "numero": "04",
+        "titre": "Ad Campaign - Paris V",
+        "competence": "Figma",
+        "annee": "2nd year - 2023",
+        "div1": {
+            "desc": " I had to to realize an institutional communication campaign aimed at promoting the economic and touristic attractiveness of a municipality in France through a cultural event. The project included the creation of a visual identity and the development of responsive mock-ups for the homepage of the official website of the city or the event, web banners in various formats, a portrait-oriented bus shelter poster, a landscape-oriented 4x3 poster, and an interactive map with geolocation of the city's hotspots.",
+            "img": "./projets/parisV.png"
+        },
+        "div2": {
+            "desc": "For this project, I specifically designed two out of three web banners, highlighting the 5th arrondissement of Paris and showcasing the Jardin des Plantes. <br> <br> Throughout this project, I gained confidence in the creative aspect. It allowed me to understand more deeply how a creative project of this magnitude unfolds, from ideation to realization, thereby strengthening my skills in the field.",
+            "img1": "./projets/parisV-2.png"
+        },
+        "div3": {
+            "img2": "./projets/parisV-3.png",
+            "img3": "./projets/parisV-4.png"
+        },
+        "link": "./img/parisV.pdf"
+    },
+    {
+        "numero": "05",
+        "titre": "Dataviz",
+        "competence": "HTML, CSS, JS, json, chart.js, jQuery",
+        "annee": "2nd year - 2023",
+        "div1": {
+            "desc": "In this project, I actively participated in the conceptualization of the layout and took charge of full-stack web development as well as data retrieval for various representations. <br> <br> I used HTML and CSS, ensuring an appealing visual presentation. JavaScript was essential to introduce interactive elements, manage animations, and create dynamic charts with the Chart.js library. <br> <br>  The use of the Webglearth API was crucial to bring the interactive world map to life, providing an immersive experience. This technology allowed visually locating the first cinemas in each country in an engaging way.",
+            "img": "./projets/cineviz.png"
+        },
+        "div2": {
+            "desc": " This project was a rewarding opportunity, delving into the complex world of data. Data retrieval was crucial, requiring special attention to the reliability of sources. Respecting legal mentions and credits/sources was an important lesson. <br> <br> It was my first experience with libraries such as Chart.js, and it was a success. This immersion in advanced technologies expanded my skills and forged a deep understanding of data management and advanced coding, an experience I am proud of in my journey.",
+            "img1": "./projets/cineviz-2.png"
+        },
+        "div3": {
+            "img2": "./projets/cineviz-3.png",
+            "img3": "./projets/cineviz-4.png"
+        },
+        "link": "https://cecilepn.github.io/cineviz/#1"
+    },
+    {
+        "numero": "06",
+        "titre": "Save Earty",
+        "competence": "HTML, CSS, JS, Project Management",
+        "annee": "2nd year - 2023",
+        "div1": {
+            "desc": "I had the opportunity to lead a project during La nuit de l'Info, where our team of 13 people worked throughout the night to create a website on the theme of climate. The main objective was to distinguish between true and false information and to present, in a playful manner, information about the current climate situation.",
+            "img": "./projets/saveEarty.png"
+        },
+        "div2": {
+            "desc": "As the project manager, it was a first for me, but despite the unique conditions and the large number of participants, we managed to adapt effectively. The result is not exactly what we had in mind but we are still very proud of what we have done during that night.",
+            "img1": "./projets/saveEarty-2.png"
+        },
+        "div3": {
+            "img2": "./projets/saveEarty-3.png",
+            "img3": "./projets/saveEarty-4.png"
+        },
+        "link": "https://saveearty.com/"
+    },
+    {
+        "numero": "07",
+        "titre": "CV video",
+        "competence": "PremierePro, AfterEffect",
+        "annee": "2nd year - 2023",
+        "div1": {
+            "desc": "Coming up, soon!",
+            "img": "./projets/.png"
+        },
+        "div2": {
+            "desc": "Be patient !! Working hard on it.",
+            "img1": "./projets/-2.png"
+        },
+        "div3": {
+            "img2": "./projets/-3.png",
+            "img3": "./projets/-4.png"
+        },
+        "link": ""
+    },
+    {
+        "numero": "08",
+        "titre": "Digital Workspace - ENT",
+        "competence": "HTML, CSS, JS, Php",
+        "annee": "2nd year - 2023",
+        "div1": {
+            "desc": "Coming up, soon!",
+            "img": "./projets/.png"
+        },
+        "div2": {
+            "desc": "Be patient !! Working hard on it.",
+            "img1": "./projets/-2.png"
+        },
+        "div3": {
+            "img2": "./projets/-3.png",
+            "img3": "./projets/-4.png"
+        },
+        "link": ""
+    }
+]
