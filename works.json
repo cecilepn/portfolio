@@ -24,11 +24,11 @@
         "competence": "HTML, CSS, JS, Php, mySql",
         "annee": "1st year - 2023",
         "div1": {
-            "desc": "",
+            "desc": "After the chinese portrait, I had this huge project of creating a custom-themed reservation website, which was a true development adventure. This ambitious project required a longer development process, involving the use of additional resources and calling upon my imagination to design a website that I am proud of as a first-year's final project.",
             "img": "./projets/artbnb.png"
         },
         "div2": {
-            "desc": "",
+            "desc": " I established a robust MySQL database, used PHP for server-side logic, and leveraged HTML, CSS, and JavaScript to create an attractive and user-friendly interface. I had to be creative in integrating advanced reservation features, focusing on optimizing the user experience and ensuring ease of use. This project has been an invaluable opportunity for me as a young web developer, allowing me to deepen and enhance my skills in this ever-evolving field.",
             "img1": "./projets/artbnb-2.png"
         },
         "div3": {
