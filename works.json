@@ -115,22 +115,22 @@
     },
     {
         "numero": "07",
-        "titre": "CV video",
-        "competence": "PremierePro, AfterEffect",
+        "titre": "Blog Art",
+        "competence": "HTML, CSS, Php",
         "annee": "2nd year - 2023",
         "div1": {
-            "desc": "Coming up, soon!",
-            "img": "./projets/.png"
+            "desc": "For a student project, we had to create a blog about any subject we wanted. For this project, the aim was to create a blog where people could read articles and comment on them when logged in and the admin profil could  have an access to the backoffice so he could add, modify or delete any articles and comments.",
+            "img": "./projets/blog-1.png"
         },
         "div2": {
-            "desc": "Be patient !! Working hard on it.",
-            "img1": "./projets/-2.png"
+            "desc": "To do so, I created a login system as well as a database to store the articles and the comments but also users. Visitors can have an access to the blog's articles and its comments without being logged but in that case, they can't comment. They have the possibility to sign in or register themselves to do so. <br> <br> This project was a great opportunity to deepen my knowledge in PHP and to understand how to create a database and how to use it.",
+            "img1": "./projets/blog-2.png"
         },
         "div3": {
-            "img2": "./projets/-3.png",
-            "img3": "./projets/-4.png"
+            "img2": "./projets/blog-3.png",
+            "img3": "./projets/blog-4.png"
         },
-        "link": ""
+        "link": "https://miniblog.cphan-nguyen.butmmi.o2switch.site/index.php"
     },
     {
         "numero": "08",
@@ -138,17 +138,17 @@
         "competence": "HTML, CSS, JS, Php",
         "annee": "2nd year - 2023",
         "div1": {
-            "desc": "Coming up, soon!",
-            "img": "./projets/.png"
+            "desc": "For a student project where I was the project leader, I had to create a Digital Workspace for our MMI program, with a focus on accessibility and catering to various user profiles. To achieve this, we conducted user interviews to establish a new hierarchy, select features, and work on both the user interface (UI) and accessibility.",
+            "img": "./projets/ent-1.png"
         },
         "div2": {
-            "desc": "Be patient !! Working hard on it.",
-            "img1": "./projets/-2.png"
+            "desc": "In this project, I actively participated in the UI design, while my colleague took charge of creating the mock-up. In addition to overseeing project management, I also played the role of the only web developer in the group, integrating the mock-up and chosen features, and consequently creating the corresponding database. From implementing the login system, including a back-office interface for administrative profiles, to providing access to grades and attendance for student profiles, I used languages such as HTML, CSS, JavaScript, and PHP.",
+            "img1": "./projets/ent-2.png"
         },
         "div3": {
-            "img2": "./projets/-3.png",
-            "img3": "./projets/-4.png"
+            "img2": "./projets/ent-3.png",
+            "img3": "./projets/ent-4.png"
         },
-        "link": ""
+        "link": "https://cecilepn.fr/ent/index.php"
     }
 ]
